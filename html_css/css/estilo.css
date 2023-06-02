@@ -2,18 +2,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(218, 158, 133);
 }
 
 .container {
     margin-top: 30px;
     max-width: 50vw;
-    background-color: blueviolet;
+    background-color: rgb(199, 105, 42);
 }
 
 h2 {
     font-family: 'Segoe UI';
-    color: red;
+    color: rgb(0, 0, 0);
 }
 
 .block {
@@ -47,6 +47,43 @@ h2 {
 .none {
     width: 100px;
     height: 100px;
-    background-color: olivedrab;
+    background-color: rgb(235, 255, 194);
     display: none;
+}
+
+/*********************************/
+
+/*Estilizando Formulários*/
+
+fieldset {
+    margin: 1em 0;
+    padding: 1en;
+    border: 1px solid #ccc;
+    background: #ffffff;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    width: auto;
+}
+
+textarea {
+    width: 20em;
+    height: 10em    ;
+}
+
+input.radio, input.checkbox, input.submit {
+    width: auto;
+}
+
+.radio {
+    margin-right: 1em;
 }
